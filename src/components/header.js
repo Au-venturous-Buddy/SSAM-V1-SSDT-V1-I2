@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: `none`
           }}
         >
-          <StaticImage src="../images/Zene N Zeanne V4 Logo.png" alt='Zene N Zeanne Logo' layout="fullWidth"></StaticImage>
+          <StaticImage src="../images/Logo.png" alt='Sporty Sam Logo' layout="fullWidth"></StaticImage>
         </Link>
         </ResponsiveHeader>
       </div>

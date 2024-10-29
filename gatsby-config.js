@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Social Snapshots: Preparing for School`,
+    title: `The Outbreak: Part 1`,
     author: `Au-venturous Buddy`
   },
   plugins: [
@@ -26,15 +26,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Social Snapshots: Preparing for School`,
-        short_name: `ZNZN-MBEI-V1-I2`,
+        name: `The Outbreak: Part 1`,
+        short_name: `SSDT-V1-I1`,
         start_url: `/`,
         background_color: `#017BFF`,
         theme_color: `#017BFF`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
-        icon: `src/images/Social Snapshots.png`, // This path is relative to the root of the site.
+        icon: `src/images/DreamTeamEmblem.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,

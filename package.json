@@ -1,5 +1,5 @@
 {
-  "name": "znzn-mbei-v1-i2",
+  "name": "ssdt-v1-i1",
   "author": "Au-venturous Buddy <auventurous.buddy@gmail.com>",
   "main": "main.js",
   "build": {
@@ -42,7 +42,6 @@
       "mergeASARs": false
     },
     "dmg": {
-      "background": "src/images/Zene N Zeanne Background.png"
     }
   },
   "private": true,

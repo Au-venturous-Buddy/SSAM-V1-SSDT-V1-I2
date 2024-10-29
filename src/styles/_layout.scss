@@ -88,7 +88,7 @@ article a:hover {
 body {
   font-family: "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
   color: #fff;
-  background-image: url("../images/WoodFloorBackground.png");
+  background-color: #8518f6;
   background-size: 20%;
 }
 
@@ -318,17 +318,6 @@ ul.bullet-points li {
 }
 
 .comic-strip-main,
-.img-button.comic-strip-page-thumbnail {
-  font-family: "Chalkduster", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
-  color: #00f;
-  border-left: 20px dotted gray;
-  background-color: rgb(255, 234, 183);
-  background-image: url("../images/Au-Some\ Blogs\ Background.png");
-  background-size: 90%;
-  background-position: center;
-}
-
-.comic-strip-main,
 .img-button.comic-strip-page-thumbnail:hover,
 .img-button.comic-strip-page-thumbnail:focus {
   box-shadow: $shadowCenter;
@@ -377,63 +366,6 @@ ul.bullet-points li {
 .modal-footer {
   text-align: center;
   color: $primaryColor;
-}
-
-.media-preview-main {
-  background: url("../images/WhitePaperBackground.png"), white;
-  background-size: 90%;
-  background-position: center;
-  box-shadow: $shadowCenter;
-  border-left: 20px dotted gray;
-  min-height: 8.26in;
-  color: $primaryColor;
-
-  .accordion-item {
-    background: rgba(0, 0, 0, 0);
-  }
-
-  .accordion-button {
-    background-color: $primaryColor;
-    color: white;
-    display: block;
-  }
-
-  .accordion-button::after {
-    display: none;
-  }
-
-  .accordion-header {
-    background: rgba(0, 0, 0, 0);
-  }
-
-  .media-preview-main-img,
-  .media-preview-main-img:hover,
-  .media-preview-main-img:focus {
-    border: 5px solid rgb(221, 221, 221);
-    box-shadow: $shadowImg;
-  }
-}
-
-.table-background,
-.table-background-zene {
-  border-top: 10px solid rgb(0, 123, 255);
-  border-bottom: 10px solid rgb(0, 123, 255);
-  background: rgb(2, 164, 254);
-  box-shadow: $shadowCenter;
-}
-
-.table-background-zeanne {
-  border-top: 10px solid #9542ff;
-  border-bottom: 10px solid #9542ff;
-  background: #a25aff;
-  box-shadow: $shadowCenter;
-}
-
-.table-background-classroom-table {
-  border-top: 10px solid #feb956;
-  border-bottom: 10px solid #feb956;
-  background: #feb956;
-  box-shadow: $shadowCenter;
 }
 
 .offcanvas-bottom {

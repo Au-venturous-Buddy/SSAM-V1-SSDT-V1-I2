@@ -1,11 +1,11 @@
 ---
-title: "Social Snapshots: Preparing for School"
+title: "The Outbreak (Part 1)"
 show_title_on_cover: false
-date: "2022-08-12"
+date: "2020-12-08"
 version: 4
 volume: 1
-issue: 2
-category: "Social Snapshots"
-format: "comic-strip-v2022_2"
-synopsis: "Zeanne teaches Zene how to get ready for school."
+issue: 1
+category: "The Dream Begins"
+format: "comic-strip-v2022_1-ssdt"
+synopsis: "Sam, a kid with SCID, gets a suit that enables him to venture outside, but later finds out that it has hidden sporty powers."
 ---

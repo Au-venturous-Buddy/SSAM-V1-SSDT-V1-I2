@@ -1,0 +1,695 @@
+.all-titles-main-the-dream-begins,
+.media-preview-main-the-dream-begins {
+  font-family: "Krungthep", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+  color: rgba(51, 228, 255, 0.8);
+  background: url("../images/SportySamVisorBackgroundSam.png"), #8518f6;
+  background-size: 40%;
+  background-position: center;
+  box-shadow: $shadowCenter;
+  border: 20px solid gray;
+  border-radius: 20%;
+  height: 5in;
+  overflow-y: scroll;
+
+  .media-preview-main-img-the-dream-begins,
+  .qr-code {
+    border: 7px solid rgba(51, 228, 255, 0.8);
+    border-radius: 10px;
+  }
+
+  .accordion-item {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .accordion-button {
+    background-color: rgba(51, 228, 255, 0.8);
+    color: white;
+    display: block;
+  }
+
+  .accordion-button::after {
+    display: none;
+  }
+
+  .accordion-header {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .media-preview-the-dream-begins {
+    border: 0px;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    .media-preview-image {
+      border: 7px solid rgba(51, 228, 255, 0.8);
+      border-radius: 10px;
+    }
+
+    .media-preview-title {
+      color: rgba(51, 228, 255, 0.8);
+    }
+
+    .media-preview-badge {
+      background-color: rgba(51, 228, 255, 0.8) !important;
+      color: white;
+    }
+  }
+
+  .media-preview-the-dream-begins:hover,
+  .media-preview-the-dream-begins:focus {
+    border: 0px;
+    box-shadow: none;
+    background-color: rgba(51, 228, 255, 0.8);
+    border-radius: 10px;
+
+    .media-preview-image {
+      border: 7px solid rgba(51, 228, 255, 0);
+      border-radius: 10px;
+    }
+
+    .media-preview-title {
+      color: white;
+    }
+
+    .media-preview-badge {
+      background-color: white !important;
+      color: rgba(51, 228, 255, 0.8) !important;
+    }
+  }
+}
+
+.vr-background,
+.vr-background-sam {
+  background: #454545;
+  border-top: 20px solid gray;
+  border-bottom: 20px solid gray;
+  box-shadow: $shadowCenter;
+
+  ol,
+  .comic-strip-main,
+  .home-credits-page,
+  iframe {
+    font-family: "Krungthep", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgba(51, 228, 255, 0.8);
+    background: url("../images/SportySamVisorBackgroundSam.png"), #8518f6;
+    background-size: 40%;
+    background-position: center;
+    box-shadow: $shadowCenter;
+    border: 20px solid gray;
+    border-radius: 20%;
+    height: 5in;
+    overflow-y: scroll;
+
+    .comic-strip-page {
+      border: 7px solid rgba(51, 228, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    h1, h2 {
+      color: rgba(51, 228, 255, 0.8);
+    }
+
+    .comic-strip-page-thumbnail {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0);
+
+      .comic-strip-page {
+        border: 7px solid rgba(51, 228, 255, 0.8);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: rgba(51, 228, 255, 0.8);
+      }
+    }
+
+    .comic-strip-page-thumbnail:hover,
+    .comic-strip-page-thumbnail:focus {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(51, 228, 255, 0.8);
+      border-radius: 10px;
+
+      .comic-strip-page {
+        border: 7px solid rgba(51, 228, 255, 0);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current {
+      .comic-strip-page-number {
+        background: rgba(51, 228, 255, 0.8);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current:hover,
+    .comic-strip-page-thumbnail-current:focus {
+      .comic-strip-page-number {
+        background: rgba(0, 0, 0, 0);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .page-navigator-button,
+    .carousel-control-prev:hover, 
+    .carousel-control-next:hover,
+    .page-navigator-button:hover {
+      color: rgba(51, 228, 255, 0.8);
+    }
+
+    .ext-web-link,
+    .ext-web-link:visited {
+      color: rgba(51, 228, 255, 0.8);
+      text-decoration: none;
+    }
+
+    .ext-web-link:hover {
+      color: #fff;
+      text-decoration: none;
+      background: rgba(51, 228, 255, 0.8);
+      box-shadow: none;
+      padding: 2px 10px;
+      border: none;
+      border-radius: 0px;
+    }
+
+    .credits-photo-border {
+      border: none;
+      background-color: rgba(0, 0, 0, 0);
+
+      .credits-photo-main {
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+      }
+    }
+  }
+}
+
+.vr-headset {
+  border: 20px solid gray;
+  border-radius: 20%;
+}
+
+.vr-background-andrew {
+  background: #454545;
+  border-top: 20px solid gray;
+  border-bottom: 20px solid gray;
+  box-shadow: $shadowCenter;
+
+  ol,
+  .comic-strip-main {
+    font-family: "Krungthep", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgba(105, 105, 105, 0.8);
+    background: url("../images/SportySamVisorBackgroundAndrew.png"), rgb(233, 255, 0);
+    background-size: 40%;
+    background-position: center;
+    box-shadow: $shadowCenter;
+    border: 20px solid gray;
+    border-radius: 20%;
+    height: 5in;
+    overflow-y: scroll;
+
+    .comic-strip-page {
+      border: 7px solid rgba(105, 105, 105, 0.8);
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    h1, h2 {
+      color: rgba(105, 105, 105, 0.8);
+    }
+
+    .comic-strip-page-thumbnail {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0);
+
+      .comic-strip-page {
+        border: 7px solid rgba(105, 105, 105, 0.8);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: rgba(105, 105, 105, 0.8);
+      }
+    }
+
+    .comic-strip-page-thumbnail:hover,
+    .comic-strip-page-thumbnail:focus {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(105, 105, 105, 0.8);
+      border-radius: 10px;
+
+      .comic-strip-page {
+        border: 7px solid rgba(51, 228, 255, 0);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current {
+      .comic-strip-page-number {
+        background: rgba(105, 105, 105, 0.8);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current:hover,
+    .comic-strip-page-thumbnail-current:focus {
+      .comic-strip-page-number {
+        background: rgba(0, 0, 0, 0);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .page-navigator-button,
+    .carousel-control-prev:hover, 
+    .carousel-control-next:hover,
+    .page-navigator-button:hover {
+      color: rgba(105, 105, 105, 0.8);
+    }
+  }
+}
+
+.vr-background-nathan {
+  background: #454545;
+  border-top: 20px solid gray;
+  border-bottom: 20px solid gray;
+  box-shadow: $shadowCenter;
+
+  ol,
+  .comic-strip-main {
+    font-family: "Krungthep", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgba(0, 238, 0, 0.8);
+    background: url("../images/SportySamVisorBackgroundNathan.png"), rgb(0, 164, 255);
+    background-size: 40%;
+    background-position: center;
+    box-shadow: $shadowCenter;
+    border: 20px solid gray;
+    border-radius: 20%;
+    height: 5in;
+    overflow-y: scroll;
+
+    .comic-strip-page {
+      border: 7px solid rgba(0, 238, 0, 0.8);
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    h1, h2 {
+      color: rgba(0, 238, 0, 0.8);
+    }
+
+    .comic-strip-page-thumbnail {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0);
+
+      .comic-strip-page {
+        border: 7px solid rgba(0, 238, 0, 0.8);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: rgba(0, 238, 0, 0.8);
+      }
+    }
+
+    .comic-strip-page-thumbnail:hover,
+    .comic-strip-page-thumbnail:focus {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(0, 238, 0, 0.8);
+      border-radius: 10px;
+
+      .comic-strip-page {
+        border: 7px solid rgba(51, 228, 255, 0);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current {
+      .comic-strip-page-number {
+        background: rgba(0, 238, 0, 0.8);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current:hover,
+    .comic-strip-page-thumbnail-current:focus {
+      .comic-strip-page-number {
+        background: rgba(0, 0, 0, 0);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .page-navigator-button,
+    .carousel-control-prev:hover, 
+    .carousel-control-next:hover,
+    .page-navigator-button:hover {
+      color: rgba(0, 238, 0, 0.8);
+    }
+  }
+}
+
+.vr-background-nona {
+  background: #454545;
+  border-top: 20px solid gray;
+  border-bottom: 20px solid gray;
+  box-shadow: $shadowCenter;
+
+  ol,
+  .comic-strip-main {
+    font-family: "Krungthep", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgba(255, 165, 0, 0.8);
+    background: url("../images/SportySamVisorBackgroundNona.png"), rgb(255, 1, 184);
+    background-size: 40%;
+    background-position: center;
+    box-shadow: $shadowCenter;
+    border: 20px solid gray;
+    border-radius: 20%;
+    height: 5in;
+    overflow-y: scroll;
+
+    .comic-strip-page {
+      border: 7px solid rgba(255, 165, 0, 0.8);
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    h1, h2 {
+      color: rgba(255, 165, 0, 0.8);
+    }
+
+    .comic-strip-page-thumbnail {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0);
+
+      .comic-strip-page {
+        border: 7px solid rgba(255, 165, 0, 0.8);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: rgba(255, 165, 0, 0.8);
+      }
+    }
+
+    .comic-strip-page-thumbnail:hover,
+    .comic-strip-page-thumbnail:focus {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(255, 165, 0, 0.8);
+      border-radius: 10px;
+
+      .comic-strip-page {
+        border: 7px solid rgba(51, 228, 255, 0);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current {
+      .comic-strip-page-number {
+        background: rgba(255, 165, 0, 0.8);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current:hover,
+    .comic-strip-page-thumbnail-current:focus {
+      .comic-strip-page-number {
+        background: rgba(0, 0, 0, 0);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .page-navigator-button,
+    .carousel-control-prev:hover, 
+    .carousel-control-next:hover,
+    .page-navigator-button:hover {
+      color: rgba(255, 165, 0, 0.8);
+    }
+  }
+}
+
+.vr-background-hannah {
+  background: #454545;
+  border-top: 20px solid gray;
+  border-bottom: 20px solid gray;
+  box-shadow: $shadowCenter;
+
+  ol,
+  .comic-strip-main {
+    font-family: "Krungthep", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 0, 0.8);
+    background: url("../images/SportySamVisorBackgroundHannah.png"), rgb(255, 139, 0);
+    background-size: 40%;
+    background-position: center;
+    box-shadow: $shadowCenter;
+    border: 20px solid gray;
+    border-radius: 20%;
+    height: 5in;
+    overflow-y: scroll;
+
+    .comic-strip-page {
+      border: 7px solid rgba(255, 255, 0, 0.8);
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    h1, h2 {
+      color: rgba(255, 255, 0, 0.8);
+    }
+
+    .comic-strip-page-thumbnail {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0);
+
+      .comic-strip-page {
+        border: 7px solid rgba(255, 255, 0, 0.8);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: rgba(255, 255, 0, 0.8);
+      }
+    }
+
+    .comic-strip-page-thumbnail:hover,
+    .comic-strip-page-thumbnail:focus {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(255, 255, 0, 0.8);
+      border-radius: 10px;
+
+      .comic-strip-page {
+        border: 7px solid rgba(51, 228, 255, 0);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: rgb(255, 1, 184);
+      }
+    }
+
+    .comic-strip-page-thumbnail-current {
+      .comic-strip-page-number {
+        background: rgba(255, 255, 0, 0.8);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: rgb(255, 1, 184);
+      }
+    }
+
+    .comic-strip-page-thumbnail-current:hover,
+    .comic-strip-page-thumbnail-current:focus {
+      .comic-strip-page-number {
+        background: rgba(0, 0, 0, 0);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: rgb(255, 1, 184);
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .page-navigator-button,
+    .carousel-control-prev:hover, 
+    .carousel-control-next:hover,
+    .page-navigator-button:hover {
+      color: rgba(255, 255, 0, 0.8);
+    }
+  }
+}
+
+.vr-background-angela {
+  background: #454545;
+  border-top: 20px solid gray;
+  border-bottom: 20px solid gray;
+  box-shadow: $shadowCenter;
+
+  ol,
+  .comic-strip-main {
+    font-family: "Krungthep", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    background: url("../images/SportySamVisorBackgroundAngela.png"), rgb(56, 40, 35);
+    background-size: 40%;
+    background-position: center;
+    box-shadow: $shadowCenter;
+    border: 20px solid gray;
+    border-radius: 20%;
+    height: 5in;
+    overflow-y: scroll;
+
+    .comic-strip-page {
+      border: 7px solid rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    h1, h2 {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .comic-strip-page-thumbnail {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0);
+
+      .comic-strip-page {
+        border: 7px solid rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+
+    .comic-strip-page-thumbnail:hover,
+    .comic-strip-page-thumbnail:focus {
+      border: 0px;
+      box-shadow: none;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+
+      .comic-strip-page {
+        border: 7px solid rgba(51, 228, 255, 0);
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: black;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current {
+      .comic-strip-page-number {
+        background: rgba(255, 255, 255, 0.8);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: black;
+      }
+    }
+
+    .comic-strip-page-thumbnail-current:hover,
+    .comic-strip-page-thumbnail-current:focus {
+      .comic-strip-page-number {
+        background: rgba(0, 0, 0, 0);
+        border-left: none;
+        border-right: none;
+      }
+
+      h2 {
+        color: black;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .page-navigator-button,
+    .carousel-control-prev:hover, 
+    .carousel-control-next:hover,
+    .page-navigator-button:hover {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}

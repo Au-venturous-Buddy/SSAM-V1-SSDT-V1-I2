@@ -194,7 +194,7 @@ export default class ComicStripBase extends React.Component {
   
       return(
         <Layout useCustomBackground={this.props.useCustomBackground} menuBarItems={[(<SettingsWindow state={this.state} languageOptions={contents.languageOptions} modeOptions={this.props.modeOptions} tableBackgroundOptions={this.props.tableBackgroundOptions} changeLanguage={this.changeLanguage} changeMode={this.changeMode} changeTableBackground={this.changeTableBackground} changePageSize={this.changePageSize} />)]} showMenuBar={true}>
-          <div style={this.props.tableBackgrounds[this.state.currentTableBackground]}>
+          <div className={`vr-background-${this.state.currentTableBackground.toLowerCase()}`}>
             <div className={`m-3 p-3 comic-strip-main`} style={{textAlign: 'center', color: "#017BFF"}}>
             <section className="my-3" style={{textAlign: "center"}}>
               <ResponsiveHeader level={1} maxSize={2} minScreenSize={800}>{contents.metadataItems.childMarkdownRemark.frontmatter.title}</ResponsiveHeader>
