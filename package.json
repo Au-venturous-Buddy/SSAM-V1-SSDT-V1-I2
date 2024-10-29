@@ -1,10 +1,10 @@
 {
-  "name": "ssdt-v1-i1",
+  "name": "ssam-ssdt-v1-i1",
   "author": "Au-venturous Buddy <auventurous.buddy@gmail.com>",
   "main": "main.js",
   "build": {
-    "icon": "src/images/Social Snapshots.png",
-    "productName": "Social Snapshots: Preparing for School",
+    "icon": "src/images/Logo.png",
+    "productName": "The Outbreak (Part 1)",
     "files": [
       "public/**/*",
       "main.js"
@@ -42,10 +42,11 @@
       "mergeASARs": false
     },
     "dmg": {
+
     }
   },
   "private": true,
-  "description": "Zeanne teaches Zene how to get ready for school.",
+  "description": "Sam, a kid with SCID, gets a suit that enables him to venture outside, but later finds out that it has hidden sporty powers.",
   "version": "0.0.0",
   "license": "0BSD",
   "scripts": {
