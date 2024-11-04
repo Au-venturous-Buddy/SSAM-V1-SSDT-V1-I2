@@ -1,10 +1,10 @@
 {
-  "name": "ssam-v1-ssdt-v1-i1",
+  "name": "ssam-v1-ssdt-v1-i2",
   "author": "Au-venturous Buddy <auventurous.buddy@gmail.com>",
   "main": "main.js",
   "build": {
     "icon": "src/images/Logo.png",
-    "productName": "Sporty Sam Dream Team: The Outbreak (Part 1)",
+    "productName": "Sporty Sam Dream Team: The Outbreak (Part 2)",
     "files": [
       "public/**/*",
       "main.js"
@@ -46,8 +46,8 @@
     }
   },
   "private": true,
-  "description": "Sam, a kid with SCID, gets a suit that enables him to venture outside, but later finds out that it has hidden sporty powers.",
-  "version": "1.1.1.0",
+  "description": "Inadvertently, Sam used his sporty powers to send a patient with a mysterious disease to the hospital where he is staying. When it turns out that the disease is a worldwide pandemic, Sam pitched in his suit - and his friends - to help mitigate the crisis.",
+  "version": "1.1.2.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
