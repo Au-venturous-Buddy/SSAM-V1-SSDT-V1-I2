@@ -66,8 +66,8 @@ const helpTooltip = (message, props) => (
             <ResponsiveHeader level={1} maxSize={2} minScreenSize={500}>Toggle Page</ResponsiveHeader>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="px-0">
-          <div className={"my-2 " + props.tableBackground}>
+        <Modal.Body className={`px-0 ${props.className}`}>
+          <div className={"my-2"}>
           <ol>
             {props.children.map((currentValue, index) => (
               <li key={index}>
@@ -204,7 +204,7 @@ export default class ComicStripBase extends React.Component {
               <Slider ref={slider => (this.slider = slider)} {...settings}>
                 {contents.pages}
               </Slider>
-              <ComicStripToggle state={this.state} goToPage={this.goToPage} tableBackground={this.props.tableBackgroundBase + "-" + this.state.currentTableBackground.toLowerCase().replace(/ /g, "-")}>{contents.pages}</ComicStripToggle>
+              <ComicStripToggle state={this.state} goToPage={this.goToPage} className={`vr-background-${this.state.currentTableBackground.toLowerCase()}`}>{contents.pages}</ComicStripToggle>
             </section>
             </Container>
             </div>

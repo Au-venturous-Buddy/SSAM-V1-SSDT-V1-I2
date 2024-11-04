@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.i0.v0.mbei.znzn',
-  appName: "Zene 'N Zeanne Social Snapshots Template",
+  appId: 'com.i1.v1.ssdt.v1.ssam',
+  appName: "Sporty Sam Dream Team: The Outbreak (Part 1)",
   webDir: 'public',
   bundledWebRuntime: false
 };

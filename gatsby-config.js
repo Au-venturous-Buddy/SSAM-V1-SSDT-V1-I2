@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `The Outbreak (Part 1)`,
+    title: `Sporty Sam Dream Team: The Outbreak (Part 1)`,
     author: `Au-venturous Buddy`
   },
   plugins: [
@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `The Outbreak (Part 1)`,
-        short_name: `SSAM-SSDT-V1-I1`,
+        name: `Sporty Sam Dream Team: The Outbreak (Part 1)`,
+        short_name: `SSAM-V1-SSDT-V1-I1`,
         start_url: `/`,
         background_color: `#017BFF`,
         theme_color: `#017BFF`,
