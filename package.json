@@ -64,9 +64,6 @@
     "electron-pack": "electron-builder"
   },
   "dependencies": {
-    "@capacitor/android": "^4.5.0",
-    "@capacitor/cli": "^4.5.0",
-    "@capacitor/core": "^4.5.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.10.13",
